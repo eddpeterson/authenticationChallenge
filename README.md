@@ -32,3 +32,5 @@
     
 *   TODO: Using identity with facebook and twitter allowing users to use all their identities 
 
+*   TODO: Authorization with CanCan
+
