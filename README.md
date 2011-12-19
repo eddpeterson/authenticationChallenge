@@ -22,9 +22,9 @@
     
     >You could as well BCrypt your password if using `has_secure_password` is not an option: http://railscasts.com/episodes/250-authentication-from-scratch?view=asciicast
 
-*   TODO: 
-   
-    >http://railscasts.com/episodes/305-authentication-with-warden
+*   TODO: http://railscasts.com/episodes/305-authentication-with-warden
+
+*   TODO: OmniAuth 1.0
 
     >Episode 241: Simple OmniAuth
 
