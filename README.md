@@ -34,3 +34,5 @@
 
 *   TODO: Authorization with CanCan
 
+*   Test Devise 2.0 RC if it is not yet released
+
