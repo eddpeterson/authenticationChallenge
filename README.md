@@ -4,6 +4,8 @@
     
     >Create a simple http basic authentication storing password in the controller without any database
     
+    
+    
 *   Simplest possible thing that can be applied in production: has_secure_password project
 
     >Use Rails 3.1 has_secure_password option on model that allows for simple authentication from scratch 
@@ -22,23 +24,33 @@
     
     >You could as well BCrypt your password if using `has_secure_password` is not an option: http://railscasts.com/episodes/250-authentication-from-scratch?view=asciicast
 
+
+
 *   Authentication with Warden
 
-    Rack based authentication. Probably not necessarily to be used directly, but shows how easy it is. Devise uses Warden.
+    >Rack based authentication. Probably not necessarily to be used directly, but shows how easy it is. Devise uses Warden.
 
-    > http://railscasts.com/episodes/305-authentication-with-warden
+    >http://railscasts.com/episodes/305-authentication-with-warden
 
-*   OmniAuth 1.0 demo
+
+
+*   Simple OmniAuth 1.0 demo allows to easily authenticate users from twitter, facebook etc.
+    
+    >To get twitter app, go to dev.twitter.com. Or choose facebook or both twitter and facebook together.
+      
+    >You need to modify simple_omniauth/config/initializer/omniauth.rb file with valid twitter key/secret
+    
+    >If you are getting OAuth::Unauthorized (401 Unauthorized), go to dev.twitter.com and specify callback url to `http://127.0.0.1:3000/auth/twitter/callback`    
 
     >Episode 241: Simple OmniAuth
 
-    >http://railscasts.com/episodes/304-omniauth-identity
+
     
 *   TODO: Using identity with facebook and twitter allowing users to use all their identities
 
-    > http://railscasts.com/episodes/235-omniauth-part-1
+    >http://railscasts.com/episodes/235-omniauth-part-1
     
-    > http://railscasts.com/episodes/304-omniauth-identity
+    >http://railscasts.com/episodes/304-omniauth-identity
 
 *   TODO: Authorization with CanCan
 
