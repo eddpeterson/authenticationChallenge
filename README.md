@@ -22,15 +22,23 @@
     
     >You could as well BCrypt your password if using `has_secure_password` is not an option: http://railscasts.com/episodes/250-authentication-from-scratch?view=asciicast
 
-*   TODO: http://railscasts.com/episodes/305-authentication-with-warden
+*   Authentication with Warden
 
-*   TODO: OmniAuth 1.0
+    Rack based authentication. Probably not necessarily to be used directly, but shows how easy it is. Devise uses Warden.
+
+    > http://railscasts.com/episodes/305-authentication-with-warden
+
+*   OmniAuth 1.0 demo
 
     >Episode 241: Simple OmniAuth
 
     >http://railscasts.com/episodes/304-omniauth-identity
     
-*   TODO: Using identity with facebook and twitter allowing users to use all their identities 
+*   TODO: Using identity with facebook and twitter allowing users to use all their identities
+
+    > http://railscasts.com/episodes/235-omniauth-part-1
+    
+    > http://railscasts.com/episodes/304-omniauth-identity
 
 *   TODO: Authorization with CanCan
 
