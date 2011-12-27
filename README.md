@@ -46,9 +46,11 @@
 
 
     
-*   TODO: Using identity with facebook and twitter allowing users to use all their identities
+*   Allow user to sign in with multiple authentications at the same time 
 
     >http://railscasts.com/episodes/235-omniauth-part-1
+    
+    >http://railscasts.com/episodes/236-omniauth-part-2
     
     >http://railscasts.com/episodes/304-omniauth-identity
 
