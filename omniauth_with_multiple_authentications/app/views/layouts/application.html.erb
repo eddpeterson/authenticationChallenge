@@ -15,12 +15,14 @@
 <% if current_user  %>
   Welcome <%= current_user.email %>!
   <%= link_to "Sign Out", signout_path %>
-<% else %>
+<% end %>
+
+<p></p>
   <%= link_to "Sign in with password", signin_path %>
   
   <%= link_to "Sign in with Twitter", "/auth/twitter" %>
   <%= link_to "Sign in with Facebook", "/auth/facebook" %>
-<% end %>
+
 
 <%= yield %>
 

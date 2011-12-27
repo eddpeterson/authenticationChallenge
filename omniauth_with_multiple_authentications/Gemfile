@@ -11,6 +11,7 @@ gem 'omniauth-twitter'
 gem 'omniauth-facebook'
 gem 'devise', :git => 'https://github.com/plataformatec/devise.git'
 
+gem "nifty-generators", :group => :development, :git => 'https://github.com/ryanb/nifty-generators.git'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -38,3 +39,4 @@ group :test do
   # Pretty printed test output
   gem 'turn', '~> 0.8.3', :require => false
 end
+gem "mocha", :group => :test
