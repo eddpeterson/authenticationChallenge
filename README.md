@@ -48,6 +48,8 @@
     
 *   TODO: 05. Allow user to sign in with multiple authentications at the same time using Devise and Omniauth
 
+    First add devise gem, run `rails generate devise:install` and `rails generate devise user` and `rake db:migrate`
+
     >http://railscasts.com/episodes/235-omniauth-part-1
     
     >http://railscasts.com/episodes/236-omniauth-part-2

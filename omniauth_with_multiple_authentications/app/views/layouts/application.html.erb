@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OmniauthWithMultipleAuthentications</title>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  
+<% flash.each do |name, msg| %>
+  <%= content_tag :div, msg, :id => "flash_#{name}" %>
+<% end %>
+
+<% if current_user  %>
+  Welcome <%= current_user.email %>!
+  <%= link_to "Sign Out", signout_path %>
+<% else %>
+  <%= link_to "Sign in with password", signin_path %>
+  
+  <%= link_to "Sign in with Twitter", "/auth/twitter" %>
+  <%= link_to "Sign in with Facebook", "/auth/facebook" %>
+<% end %>
+
+<%= yield %>
+
+</body>
+</html>
