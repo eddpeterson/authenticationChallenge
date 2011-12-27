@@ -46,9 +46,11 @@
 
 
     
-*   TODO: 05. Allow user to sign in with multiple authentications at the same time using Devise and Omniauth
+*   05. Allow user to sign in with multiple authentications at the same time using Devise and Omniauth
 
-    First add devise gem, run `rails generate devise:install` and `rails generate devise user` and `rake db:migrate`
+    >You need to modify simple_omniauth/config/initializer/omniauth.rb file with valid twitter key/secret
+
+    When creating such a solution first add devise gem, run `rails generate devise:install` and `rails generate devise user` and `rake db:migrate`
 
     >http://railscasts.com/episodes/235-omniauth-part-1
     
@@ -56,7 +58,5 @@
     
     >Optional since I am using Devise to handle no password user sign in: http://railscasts.com/episodes/304-omniauth-identity
 
+
 *   TODO: Authorization with CanCan
-
-*   Test Devise 2.0 RC if it is not yet released
-
