@@ -1,12 +1,12 @@
 ## Understand authentication and authorization in Rails 3 
 
-*   Simplest possible thing: http_basic_authenticate_with project
+*   01. Simplest possible thing: http_basic_authenticate_with project
     
     >Create a simple http basic authentication storing password in the controller without any database
     
     
     
-*   Simplest possible thing that can be applied in production: has_secure_password project
+*   02. Simplest possible thing that can be applied in production: has_secure_password project
 
     >Use Rails 3.1 has_secure_password option on model that allows for simple authentication from scratch 
     
@@ -26,7 +26,7 @@
 
 
 
-*   Authentication with Warden
+*   03. Authentication with Warden
 
     >Rack based authentication. Probably not necessarily to be used directly, but shows how easy it is. Devise uses Warden.
 
@@ -34,7 +34,7 @@
 
 
 
-*   Simple OmniAuth 1.0 demo allows to easily authenticate users from twitter, facebook etc.
+*   04. Simple OmniAuth 1.0 demo allows to easily authenticate users from twitter, facebook etc.
     
     >To get twitter app, go to dev.twitter.com. Or choose facebook or both twitter and facebook together.
       
@@ -46,13 +46,13 @@
 
 
     
-*   Allow user to sign in with multiple authentications at the same time 
+*   TODO: 05. Allow user to sign in with multiple authentications at the same time using Devise and Omniauth
 
     >http://railscasts.com/episodes/235-omniauth-part-1
     
     >http://railscasts.com/episodes/236-omniauth-part-2
     
-    >http://railscasts.com/episodes/304-omniauth-identity
+    >Optional since I am using Devise to handle no password user sign in: http://railscasts.com/episodes/304-omniauth-identity
 
 *   TODO: Authorization with CanCan
 
