@@ -61,6 +61,10 @@ omniauth_with_multiple_authentications project
 
 
 
-*   TODO: Authorization with CanCan
-
-    > http://railscasts.com/episodes/192-authorization-with-cancan
+*   Authorization with CanCan
+    
+    >`rails g cancan:ability`
+    
+    > https://github.com/ryanb/cancan
+    
+    > Video is a bit outdated, but still very valuable: http://railscasts.com/episodes/192-authorization-with-cancan

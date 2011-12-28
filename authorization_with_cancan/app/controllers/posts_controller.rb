@@ -1,6 +1,8 @@
 class PostsController < ApplicationController
   
   before_filter :authenticate_user!, :except => [:index]
+  load_and_authorize_resource #if you are using restful style
+  # authorize! :update, @post # call directly under specific action e.g. update
   
   def index
     @posts = Post.all
@@ -26,6 +28,7 @@ class PostsController < ApplicationController
 
   def edit
     @post = Post.find(params[:id])
+    
   end
 
   def update
